@@ -12,6 +12,8 @@ git log
 git log --author=""
 git diff
 git diff --staged
+
+
 git rm filename
 git remote add origin https://github.com/kpreddy87/git-github.git    sync
 git pull origin master
