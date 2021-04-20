@@ -1,0 +1,25 @@
+
+git config --global user.name
+git config --global user.email
+git config --list
+git help
+git  status
+git init
+git add .      (statged)
+git rm --cached <file>    (to unstage )
+git commit -m "first git commit"
+git log
+git log --author=""
+git diff
+git diff --staged
+git rm filename
+git remote add origin https://github.com/kpreddy87/git-github.git    sync
+git pull origin master
+git push -u origin main
+git branch develop
+git checkout develop
+git branch               -find no.of branches
+git merge develop               merger develop to master
+git reset HEAD test.txt            move staging area to working area
+git reset HEAD~						move local repo to staged area
+git clone "https://github.com/kpreddy87/starter-web.git"
